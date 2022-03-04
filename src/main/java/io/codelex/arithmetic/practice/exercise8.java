@@ -22,6 +22,9 @@ public class exercise8 {
 
 
     public static void main(String[] args){
+        System.out.println(totalPay(7.5,35));
+        System.out.println(totalPay(8.20,47));
+        System.out.println(totalPay(10.00,73));
 
     }
 }

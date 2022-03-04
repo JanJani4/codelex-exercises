@@ -1,6 +1,4 @@
-package io.codelex.typesandvariables.practice;
-
-import io.codelex.NoCodeWrittenException;
+package io.codelex.arithmetic.practice;
 
 public class SadFor {
     public static void main(String[] args) {
@@ -8,13 +6,15 @@ public class SadFor {
     }
 
     public static int test1() {
-        int num = 0;
+        int result = 0;
+
         for (int i = 0; i < 10; i++) {
-            num = i;
-            if (Math.sqrt(i) > 2.5)
+            result = i;
+           if (Math.sqrt(i) > 2.5)
                 break;
+
         }
-        return num;
+        return result;
         //throw new NoCodeWrittenException();
     }
 }
