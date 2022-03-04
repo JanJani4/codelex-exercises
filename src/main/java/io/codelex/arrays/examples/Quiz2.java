@@ -9,10 +9,7 @@ public class Quiz2 {
 
         System.out.println(ar[0] + " " + ar[3]);
         // What will be the output?
-        // 1. 23 2
-        // 2. 23
         // 3. 23 23
-        // 4. compilation error
-        // 5. runtime error
+
     }
 }
